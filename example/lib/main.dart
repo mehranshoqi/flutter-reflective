@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reflective/reflective.dart';
+
+import 'package:reflective_visual/reflective.dart';
 
 Future<void> main() async => runApp(
       const MaterialApp(
