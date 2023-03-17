@@ -39,3 +39,22 @@ Change the minimum Android sdk version to 21 (or higher) in your `android/app/bu
 ```groovy
 minSdkVersion 21
 ```
+
+
+
+## License
+
+Licensed under the MIT license. See [LICENSE](https://github.com/mehranshoqi/voice_message_player/blob/master/LICENSE "LICENSE").
+
+<!-- ## Donation
+
+[![Donate with Ripple](https://en.cryptobadges.io/badge/big/r3EazHwqTd7ifeCJj5gm3xdRna71vwmhwp)](https://en.cryptobadges.io/donate/r3EazHwqTd7ifeCJj5gm3xdRna71vwmhwp) -->
+
+
+## Me
+
+:pushpin:Find me at [Portfolio](https://portfolio-3dl.pages.dev/)
+
+
+
+
