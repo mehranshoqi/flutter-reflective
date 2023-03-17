@@ -1,5 +1,5 @@
 name: reflective
-description: A new Flutter package project.
+description: Reflective visual for flutter apps.
 version: 0.0.1
 homepage:
 
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  camera:
-  blur:
+  camera: ^0.10.3
+  blur: ^3.1.0
   
 
 dev_dependencies:

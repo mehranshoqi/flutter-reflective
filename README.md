@@ -11,10 +11,38 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+## Reflective visual for flutter apps
+
+<div style="height:32px;"></div>
+
+## Demo
+
+<div style="height:24px;"></div>
+
+![](voice_message_intro.gif)
+
+<div style="height:12px;"></div>
+<p style="font-size: 18px"/>
+Voicey is a flutter package to play voice messages in chats. Also, you can sicking by dragging on voice noises.
+</p>
+
+
+<div style="height:40px;"></div>
 
 ## Installation
 
 First, add `reflective` as a [dependency in your pubspec.yaml file](https://flutter.dev/using-packages/).
+
+```yml
+dependencies:
+  reflective: <latest-version>
+```
+<div style="height:12px;"></div>
+
+Next, get package from pub dependencies:
+```dart
+flutter pub get
+```
 
 ### iOS
 
