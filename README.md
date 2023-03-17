@@ -11,29 +11,31 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
-## Features
+## Installation
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+First, add `reflective` as a [dependency in your pubspec.yaml file](https://flutter.dev/using-packages/).
 
-## Getting started
+### iOS
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add two rows to the `ios/Runner/Info.plist`:
 
-## Usage
+* one with the key `Privacy - Camera Usage Description` and a usage description.
+* and one with the key `Privacy - Microphone Usage Description` and a usage description.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+If editing `Info.plist` as text, add:
 
-```dart
-const like = 'sample';
+```xml
+<key>NSCameraUsageDescription</key>
+<string>your usage description here</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>your usage description here</string>
 ```
 
-## Additional information
+### Android
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Change the minimum Android sdk version to 21 (or higher) in your `android/app/build.gradle` file.
+
+```groovy
+minSdkVersion 21
+```
