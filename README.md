@@ -19,12 +19,9 @@ and the Flutter guide for
 
 <div style="height:24px;"></div>
 
-![](voice_message_intro.gif)
+![](demo.gif)
 
 <div style="height:12px;"></div>
-<p style="font-size: 18px"/>
-Voicey is a flutter package to play voice messages in chats. Also, you can sicking by dragging on voice noises.
-</p>
 
 
 <div style="height:40px;"></div>
