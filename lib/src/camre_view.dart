@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 /// CameraApp is the Main Application.
 class CameraApp extends StatefulWidget {
   /// Default Constructor
-  const CameraApp(this.cameras,{Key? key}) : super(key: key);
-final List<CameraDescription> cameras; 
+  const CameraApp(this.cameras, {Key? key}) : super(key: key);
+  final List<CameraDescription> cameras;
 
   @override
   State<CameraApp> createState() => _CameraAppState();
@@ -27,10 +27,8 @@ class _CameraAppState extends State<CameraApp> {
       if (e is CameraException) {
         switch (e.code) {
           case 'CameraAccessDenied':
-            // Handle access errors here.
             break;
           default:
-            // Handle other errors here.
             break;
         }
       }
@@ -44,12 +42,7 @@ class _CameraAppState extends State<CameraApp> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    if (!controller.value.isInitialized) {
-      return Container();
-    }
-    return MaterialApp(
-      home: CameraPreview(controller),
-    );
-  }
+  Widget build(BuildContext context) => (!controller.value.isInitialized)
+      ? const SizedBox()
+      : MaterialApp(home: CameraPreview(controller));
 }
