@@ -1,6 +1,7 @@
 name: reflective_visual
 description: Reflective visual for flutter apps.
 version: 0.0.3
+repository: https://github.com/mehranshoqi/flutter-reflective
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
