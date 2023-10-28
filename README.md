@@ -71,14 +71,9 @@ minSdkVersion 21
 
 Licensed under the MIT license. See [LICENSE](https://github.com/mehranshoqi/voice_message_player/blob/master/LICENSE "LICENSE").
 
-<!-- ## Donation
 
-[![Donate with Ripple](https://en.cryptobadges.io/badge/big/r3EazHwqTd7ifeCJj5gm3xdRna71vwmhwp)](https://en.cryptobadges.io/donate/r3EazHwqTd7ifeCJj5gm3xdRna71vwmhwp) -->
 
-### Donation
-Your donation **motivates** me to work more on the **Reflective Visual**.
 
-bc1q58h0hssvmxsc0zdedmqzn2kqx9j7rgueycwxgq [Bitcoin]
 
 
 ## Me
