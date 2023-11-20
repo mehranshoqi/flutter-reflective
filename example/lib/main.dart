@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:reflective_visual/reflective.dart';
+import 'package:reflective_visual/reflective_visual.dart';
 
 Future<void> main() async {
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);

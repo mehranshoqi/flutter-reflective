@@ -67,11 +67,6 @@ minSdkVersion 21
 
 
 
-## License
-
-Licensed under the MIT license. See [LICENSE](https://github.com/mehranshoqi/voice_message_player/blob/master/LICENSE "LICENSE").
-
-
 
 
 
